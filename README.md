@@ -8,7 +8,11 @@
 - app deployed on heroku on https://test-pencil.herokuapp.com/
 - search endpoint /search
 - usage /search?q="topicname"
-- example: https://test-pencil.herokuapp.com/search?q="Physics"
+- examples: https://test-pencil.herokuapp.com/search?q="Transport in Flowering Plants"
+
+- https://test-pencil.herokuapp.com/search?q="Biological Molecules"
+- https://test-pencil.herokuapp.com/search?q="Chloroplasts"
+- http://localhost:5000/search?q="Breakdown of red blood cells"
 
 
 ## App  Structure
