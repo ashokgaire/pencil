@@ -8,11 +8,11 @@
 - app deployed on heroku on https://test-pencil.herokuapp.com/
 - search endpoint /search
 - usage /search?q="topicname"
-- examples: https://test-pencil.herokuapp.com/search?q="Transport in Flowering Plants"
-
-- https://test-pencil.herokuapp.com/search?q="Biological Molecules"
+- examples: 
+-https://test-pencil.herokuapp.com/search?q=%22Transport%20in%20Flowering%20Plants%22
+- https://test-pencil.herokuapp.com/search?q=%22Biological%20Molecules%22
 - https://test-pencil.herokuapp.com/search?q="Chloroplasts"
-- http://localhost:5000/search?q="Breakdown of red blood cells"
+- https://test-pencil.herokuapp.com/search?q=%22Breakdown%20of%20red%20blood%20cells%22
 
 
 ## App  Structure
@@ -40,3 +40,12 @@
 - 1. one for retreving childern topics from given query topic and stores list of result
 - 2. another query only runs if first query return result and checks for all question thats matches the first query result list of topics
 
+
+
+# Database creds
+- creds are stored in .env file 
+- database name test
+- collections 
+- 1. questions
+- 2 . topics
+- 
