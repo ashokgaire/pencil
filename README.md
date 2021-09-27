@@ -39,7 +39,8 @@
 
 # How search endpoint works 
 - search endpoint makes two query request 
-- 1. one for retreving childern topics from given query topic and stores list of result
+- 1. one for retreving childern topics from given query topic and stores list of result using graph lookup 
+- - check this https://docs.mongodb.com/manual/reference/operator/aggregation/graphLookup/
 - 2. another query only runs if first query return result and checks for all question thats matches the first query result list of topics
 
 
