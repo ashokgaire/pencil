@@ -45,10 +45,10 @@
 
 
 
-# Database creds
+# Database creds and info
 - creds are stored in .env file 
 - database name test
 - collections 
-- 1. questions
-- 2 . topics
+- 1. questions (total rows 199)
+- 2 . topics   (total row 141) ( note 20+ rows is not included from buttom from given sheet ) 
 - 
