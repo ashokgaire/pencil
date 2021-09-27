@@ -22,7 +22,8 @@
 
 # Database Structure
 - uses mongodb with two table `Topics` and `Questions`
-- Topics table is in parent based tree structure and indexing on parent label to make queries faster 
+- Topics table is in tree structure with parent references and indexing on parent label to make queries faster 
+- check this https://docs.mongodb.com/manual/tutorial/model-tree-structures-with-parent-references/
 - Questions table have question and annotation(list based)
 - topics table structure exmaple.  
  ```
